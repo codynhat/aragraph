@@ -12,10 +12,12 @@ const RxOp = require('rxjs/operators');
 const ETH_PROVIDERS = {
     1: 'wss://mainnet.eth.aragon.network/ws',
     4: 'wss://rinkeby.eth.aragon.network/ws',
+    100: 'wss://xdai.poanetwork.dev/wss',
 };
 const ENS_REGISTRIES = {
     1: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
     4: '0x98df287b6c145399aaa709692c8d308357bc085d',
+    100: '0xaafca6b0c89521752e559650206d7c925fd0e530'
 };
 const IPFS_GATEWAY_URL = 'https://ipfs.eth.aragon.network/ipfs';
 
